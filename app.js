@@ -4,6 +4,8 @@ const app = () => {
     const outline = document.querySelector('.moving-outline circle');
     const video = document.querySelector('.vid-container video');
 
+    //Sounds
+    const sounds = document.querySelectorAll('.sound-picker button');
 }
 
 app();
