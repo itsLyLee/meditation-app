@@ -54,4 +54,6 @@ video {
 .sound-picker button {
   color: white;
   width: 30%;
+  height: 10%;
+  background: none;
 }
