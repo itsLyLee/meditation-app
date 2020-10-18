@@ -10,10 +10,10 @@ const app = () => {
     const timeDisplay = document.querySelector('.time-display');
     //Get the length of the outline
     const outlineLength = outline.getTotalLength();
-    console.log(outlineLength)
     //Duration
     let fakeDuration = 600;
-    
+
+        outline.style.strokeDasharray = outlineLength;
 };
 
 app();
