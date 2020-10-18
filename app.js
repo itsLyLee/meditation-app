@@ -11,6 +11,9 @@ const app = () => {
     //Get the length of the outline
     const outlineLength = outline.getTotalLength();
     console.log(outlineLength)
-}
+    //Duration
+    let fakeDuration = 600;
+    
+};
 
 app();
