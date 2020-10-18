@@ -21,6 +21,13 @@ const app = () => {
     play.addEventListener('click', () =>{
         song.play();
     });
+
+    //Create a function specific to stop and play the sound
+    const checkPlaying = song =>{
+        if(song.paused){
+        song.play();
+        }
+    }
 };
 
 app();
