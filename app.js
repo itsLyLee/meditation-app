@@ -26,6 +26,11 @@ const app = () => {
     const checkPlaying = song =>{
         if(song.paused){
         song.play();
+        play.src = './svg/pause.svg';
+        }else{
+            song.pause();
+            play.src = './svg.play.svg';
+        }
         }
     }
 };
