@@ -31,9 +31,14 @@ const app = () => {
         }else{
             song.pause();
             video.pause();
-            play.src = './svg.play.svg';
+            play.src = './svg/play.svg';
         }
     
+    };
+    //Animated circle
+    song.ontimeupdate = ()=> {
+        let currentTime = song.currentTime;
+        let elapsed = fakeDuration - currentTimelet seconds = elapsed % 60;
     }
 };
 
