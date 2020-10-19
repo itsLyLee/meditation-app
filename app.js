@@ -40,6 +40,7 @@ const app = () => {
         let currentTime = song.currentTime;
         let elapsed = fakeDuration - currentTime
         let seconds = elapsed % 60;
+        let minutes = elapsed / 60;
     }
 };
 
