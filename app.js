@@ -39,8 +39,8 @@ const app = () => {
     song.ontimeupdate = ()=> {
         let currentTime = song.currentTime;
         let elapsed = fakeDuration - currentTime
-        let seconds = elapsed % 60;
-        let minutes = elapsed / 60;
+        let seconds = Math.floor(elapsed % 60);
+        let minutes = Math.floor(elapsed / 60);
     }
 };
 
