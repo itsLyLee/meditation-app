@@ -27,8 +27,9 @@ const app = () => {
     timeSelect.forEach(option => {
         option.addEventListener('click', function (){
             fakeDuration = this.getAttribute('data-time');
-        })
-    })
+            timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(fakeDuration % 60)}`;
+        });
+    });
 
     //A function specific to stop and play the sound
     const checkPlaying = song =>{
@@ -55,7 +56,7 @@ const app = () => {
     outline.style.strokeDashoffset = progress;
 
     //Animated text
-    timeDisplay.textContent = '${minutes}:${seconds}'
+    timeDisplay.textContent = `${minutes}:${seconds}`;
     }
 };
 
