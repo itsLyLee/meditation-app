@@ -45,6 +45,9 @@ const app = () => {
     //Circle
     let progress = outlineLength - (currentTime / fakeDuration * outlineLength);
     outline.style.strokeDashoffset = progress;
+
+    //Animated text
+    timeDisplay.textContent = '${minutes}:${seconds}'
     }
 };
 
