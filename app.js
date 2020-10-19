@@ -38,7 +38,8 @@ const app = () => {
     //Animated circle
     song.ontimeupdate = ()=> {
         let currentTime = song.currentTime;
-        let elapsed = fakeDuration - currentTimelet seconds = elapsed % 60;
+        let elapsed = fakeDuration - currentTime
+        let seconds = elapsed % 60;
     }
 };
 
