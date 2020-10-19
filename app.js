@@ -43,7 +43,8 @@ const app = () => {
         let minutes = Math.floor(elapsed / 60);
 
     //Circle
-    let progress = outlineLength - (currentTime)
+    let progress = outlineLength - (currentTime / fakeDuration * outlineLength);
+    outline.style.strokeDashoffset = progress;
     }
 };
 
