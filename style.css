@@ -65,7 +65,7 @@ video {
 
 .time-select button:hover {
   color: black;
-  background: white;
+  background: lightblue;
 }
 
 .sound-picker button {
@@ -77,11 +77,11 @@ video {
 }
 
 .sound-picker button:nth-child(1) {
-  background: #4972a1;
+  background: #a3c4e9;
 }
 
 .sound-picker button:nth-child(2) {
-  background: #a14f49;
+  background: #e09e99;
 }
 
 .sound-picker button img {
