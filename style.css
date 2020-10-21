@@ -84,6 +84,10 @@ video {
   background: #e09e99;
 }
 
+.sound-picker button:nth-child(3) {
+  background: #90c089;
+}
+
 .sound-picker button img {
   height: 100%;
 }
